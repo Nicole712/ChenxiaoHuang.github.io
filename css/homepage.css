@@ -1,0 +1,82 @@
+body {
+    background-color: #eeeeee;
+    font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
+}
+
+h1, h2, h3, h4 {
+    color: #527bbd;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2 {
+    padding-top: 0;
+    font-size: 2.0rem;
+    border-bottom: 1px dashed #005bac;
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.all-page {
+    background-color: #ffffff;
+    padding: 20px 45px 30px 45px;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.email {
+    margin-top: 2rem;
+}
+
+p.institution {
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.6);
+    margin-left: 2.5rem;
+}
+
+.margin_l{
+    margin-top: 5px;
+}
+
+/*education*/
+.course{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .all-page {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all-page {
+        margin: 0;
+    }
+}
